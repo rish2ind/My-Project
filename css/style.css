@@ -6,9 +6,27 @@ body{
     margin: 0px;
     padding: 0px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 450px){
     body{
         background-color: lightblue;
+    }
+    .container{
+        width: 80%;
+    }
+    .aside{
+        width: 20%;
+        font-size: 12px;
+    }
+    .header{
+        width: 80%;
+    }
+    .image{
+        width: 10%;
+    }
+    .Menu a{
+        float: none;
+        width: 100%;
+        
     }
 }
 .link-title{
@@ -46,7 +64,6 @@ body{
 .Menu a:hover{
     color: #fff;
 }
-
 aside{
     float: left;
     max-width: 20%;
@@ -55,7 +72,7 @@ aside{
     background-color: #fbc9c93d;
     padding: 30px 10px 0px 30px; 
     border-right: 1px solid gray;
-    height: 2680px;
+    height: 2780px;
 }
 .link{
     color: darkolivegreen;
@@ -129,12 +146,13 @@ footer{
     font-family: cursive;    
 }
 .image{
+    
     float: right;
     margin: 0px 0px 15px 20px;
-    max-width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
     transition: transform .4s;
+    
 }
 .image:hover{  
     transform: rotate(10deg);
@@ -146,6 +164,7 @@ footer{
     text-decoration: none;
     font-family: "Arial";
     font-style: normal;
+   
 }
 .ashoke{
     transition: transform .4s;
@@ -153,7 +172,19 @@ footer{
 .ashoke:hover{
     transform: scale(1.1);
 }
+.Others{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: sans-serif;
+}
 
+.Others:visited{
+    color: green;
+}
+.Others:hover{
+    color: red;
+}
 /*************************** About Page Style ********************/
 
 #about-page #home-image img{
