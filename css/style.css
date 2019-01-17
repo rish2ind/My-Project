@@ -1,0 +1,212 @@
+body{
+    background-color: #ffccff;
+    background-image: url("header.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: lightblue;
+    }
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+}
+.container{
+    max-width:80%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 11px 13px 4px red, 0px 11px 10px 4px blue;
+    float: right;
+}
+.header{
+    padding: 45px;
+    background: #b0afea;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.Menu{  
+    background: #35a3e4;
+    padding: 10px 0px 13px 30px;
+    height: 17px;  
+}
+.Menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cursive;
+    text-transform: uppercase;
+    display: inline;
+}
+.Menu a:hover{
+    color: #fff;
+}
+
+aside{
+    float: left;
+    max-width: 20%;
+    color: darkolivegreen;
+    font-family: "Arial";
+    background-color: #fbc9c93d;
+    padding: 30px 10px 0px 30px; 
+    border-right: 1px solid gray;
+    height: 2680px;
+}
+.link{
+    color: darkolivegreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial", "Myriad Pro";
+    font-weight: normal;
+}
+
+.link:hover{
+    color: #00af00;
+    text-shadow: 2px 2px 6px #00af00;
+    box-shadow: 2px 2px 6px #00af00;
+}
+h1{
+   
+    margin: 0px;
+    font-weight: noraml;
+    font-family: "Arial", "Myriad Pro";    
+    font-weight: normal;
+  
+}
+h2{
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0
+}
+.main{
+    margin: 0 0 0 180px; 
+    padding: 35px 40px 30px 15px;
+    text-emphasis:justify;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;  
+    max-width: 80%;
+}
+.home-image img{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    opacity: .7;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.home-image img:hover{
+    background: white;
+    opacity: .9;
+}
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #262;
+    cursor: pointer;
+}
+.saparator{
+    color: #ffffff;
+    font-size: 11px;
+}
+.detail{
+    color: blue;
+    font-size: 25px;
+    font-family: cursive;    
+}
+.image{
+    float: right;
+    margin: 0px 0px 15px 20px;
+    max-width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    transition: transform .4s;
+}
+.image:hover{  
+    transform: rotate(10deg);
+}
+.style{
+    text-align: center;
+    padding: 0px 0px ;
+    margin-bottom:0px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-style: normal;
+}
+.ashoke{
+    transition: transform .4s;
+}
+.ashoke:hover{
+    transform: scale(1.1);
+}
+
+/*************************** About Page Style ********************/
+
+#about-page #home-image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 18px;
+}
+#about-page .description{
+    clear: both;
+}
+#title{
+    float: right;
+    width: 20%;
+}
+
+/*********************** Contact Page Style ****************/
+#contact-page{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+.containers{
+    max-width: 100%;   
+}
+.form{
+    margin-top: 150px;
+    margin-left: 100px;
+    transition: all 4s ease-in-out;
+}
+.Text{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    width: 600px;
+}
+form .submit:hover{
+    background-color: #ff3300;
+    cursor: pointer;
+}
