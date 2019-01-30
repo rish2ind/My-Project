@@ -206,15 +206,15 @@ footer{
     background-size: cover;
 }
 .containers{
-    max-width: 100%;   
+    max-width: 80%;   
+    
 }
 .form{
-    margin-top: 150px;
-    margin-left: 100px;
-    transition: all 4s ease-in-out;
+    width: 100%;
+    border: 1px solid lightblue;
 }
 .Text{
-    width: 600px;
+    width: 100%;
     background: transparent;
     border: none;
     outline: none;
@@ -235,7 +235,7 @@ form .submit{
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
-    width: 600px;
+    width: 100%;
 }
 form .submit:hover{
     background-color: #ff3300;
