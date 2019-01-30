@@ -9,3 +9,25 @@
 #btn:hover{
     color: #ff0000;
 }
+#more{
+    display: none;
+}
+#myBtn{
+    color: #0000ff;
+    cursor: pointer;
+    font-family: "Georgia";
+}
+#myBtn:hover{
+    color: #ff0000;
+}
+#mores{
+    display: none;
+}
+#myBtns{
+    color: #0000ff;
+    cursor: pointer;
+    font-family: "Georgia";
+}
+#myBtns:hover{
+    color: #ff0000;
+}
