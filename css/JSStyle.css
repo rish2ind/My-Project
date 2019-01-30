@@ -1,0 +1,11 @@
+#mor{
+    display: none;
+}
+#btn{
+    color: #0000ff;
+    cursor: pointer;
+    font-family: "Georgia";
+}
+#btn:hover{
+    color: #ff0000;
+}
