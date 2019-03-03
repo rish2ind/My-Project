@@ -64,7 +64,7 @@ body{
 .Menu a:hover{
     color: #fff;
 }
-aside{
+#home{
     float: left;
     max-width: 20%;
     color: darkolivegreen;
@@ -72,7 +72,7 @@ aside{
     background-color: #fbc9c93d;
     padding: 30px 10px 0px 30px; 
     border-right: 1px solid gray;
-    height: 2780px;
+    height: 2985px;
 }
 .link{
     color: darkolivegreen;
@@ -80,9 +80,11 @@ aside{
     font-size: 20px;
     font-family: "Arial", "Myriad Pro";
     font-weight: normal;
+    transition: transform .4s;
 }
 
 .link:hover{
+    transform: scale(1.1);
     color: #00af00;
     text-shadow: 2px 2px 6px #00af00;
     box-shadow: 2px 2px 6px #00af00;
@@ -121,7 +123,7 @@ h2{
 }
 .home-image img:hover{
     background: white;
-    opacity: .9;
+    opacity: 1;
 }
 footer{
     padding: 6px 40px 6px 40px;
@@ -240,4 +242,26 @@ form .submit{
 form .submit:hover{
     background-color: #ff3300;
     cursor: pointer;
+}
+/********************************************* Executive Page **************************/
+#ex-home{
+    float: left;
+    max-width: 20%;
+    color: darkolivegreen;
+    font-family: "Arial";
+    background-color: #fbc9c93d;
+    padding: 30px 10px 0px 30px; 
+    border-right: 1px solid gray;
+    height: 1690px;
+}
+/********************************************* Legislature Page ***********************/
+#le-home{
+    float: left;
+    max-width: 20%;
+    color: darkolivegreen;
+    font-family: "Arial";
+    background-color: #fbc9c93d;
+    padding: 30px 10px 0px 30px; 
+    border-right: 1px solid gray;
+    height: 1300px;
 }

@@ -1,33 +1,26 @@
 #mor{
     display: none;
 }
-#btn{
-    color: #0000ff;
-    cursor: pointer;
-    font-family: "Georgia";
-}
-#btn:hover{
-    color: #ff0000;
-}
+
 #more{
     display: none;
-}
-#myBtn{
-    color: #0000ff;
-    cursor: pointer;
-    font-family: "Georgia";
-}
-#myBtn:hover{
-    color: #ff0000;
 }
 #mores{
     display: none;
 }
-#myBtns{
+#history{
+    display: none;
+}
+
+#Politicals{
+    display: none;
+}
+
+span{
     color: #0000ff;
     cursor: pointer;
     font-family: "Georgia";
 }
-#myBtns:hover{
+span:hover{
     color: #ff0000;
 }
