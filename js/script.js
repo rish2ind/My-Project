@@ -66,3 +66,32 @@ function myPol(){
         y.innerHTML = 'Read More';
     }
 }
+
+//----------------------------------- High Court -----------------------------------------//
+function myHigh(){
+    var x = document.getElementById('HC');
+    var y = document.getElementById('court');
+    if( x.style.display === 'none'){
+        x.style.display = 'inline';       
+        y.innerHTML = 'Read Less';
+    }
+    else{
+        x.style.display = 'none';       
+        y.innerHTML = 'Read More';
+    }
+}
+
+//------------------------------------- Constitution ----------------------------------------//
+
+function myCons(){
+    var x = document.getElementById('cons');
+    var y = document.getElementById('rm');
+    if( x.style.display === 'none'){
+        x.style.display = 'inline';       
+        y.innerHTML = 'Read Less';
+    }
+    else{
+        x.style.display = 'none';       
+        y.innerHTML = 'Read More';
+    }
+}
