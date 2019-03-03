@@ -1,3 +1,16 @@
+//------------------------------------- History Section ------------------------------------//
+function myHistory(){
+    var x = document.getElementById('history');
+    var y = document.getElementById('read');
+    if(x.style.display == 'none'){
+        x.style.display = 'inline';
+        y.innerHTML = 'Read Less';
+    }
+    else{
+        x.style.display = 'none';
+        y.innerHTML = 'Read More';
+    }
+}
 //------------------------------------- Geography Section ----------------------------------//
 function myFun(){
     var x = document.getElementById('mor');
@@ -37,6 +50,19 @@ function myFunct(){
     }
     else{
         x.style.display = 'none';
+        y.innerHTML = 'Read More';
+    }
+}
+//------------------------------------ Political And Government ---------------------------//
+function myPol(){
+    var x = document.getElementById('Politicals');
+    var y = document.getElementById('Gov');
+    if( x.style.display === 'none'){
+        x.style.display = 'inline';       
+        y.innerHTML = 'Read Less';
+    }
+    else{
+        x.style.display = 'none';       
         y.innerHTML = 'Read More';
     }
 }
