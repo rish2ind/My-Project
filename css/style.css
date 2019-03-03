@@ -31,6 +31,7 @@ body{
 }
 .link-title{
     text-decoration: none;
+    display: inline;
     font-size: 24px;
     color: #444444;
 }
@@ -52,6 +53,7 @@ body{
     background: #35a3e4;
     padding: 10px 0px 13px 30px;
     height: 17px;  
+    max-width: 100%;
 }
 .Menu a{
     color: black;
@@ -63,6 +65,9 @@ body{
 }
 .Menu a:hover{
     color: #fff;
+}
+.Menu a:active{
+    color: yellow;
 }
 #home{
     float: left;
@@ -176,7 +181,7 @@ footer{
 }
 .Others{
     text-decoration: none;
-    display: block;
+    display: inline;
     font-size: 18px;
     font-family: sans-serif;
 }
@@ -264,4 +269,16 @@ form .submit:hover{
     padding: 30px 10px 0px 30px; 
     border-right: 1px solid gray;
     height: 1300px;
+}
+/********************************************** Judiciary Page *************************/
+
+#j-home{
+    float: left;
+    max-width: 20%;
+    color: darkolivegreen;
+    font-family: "Arial";
+    background-color: #fbc9c93d;
+    padding: 30px 10px 0px 30px; 
+    border-right: 1px solid gray;
+    height: 1500px;
 }

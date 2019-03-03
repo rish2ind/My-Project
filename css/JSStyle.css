@@ -15,7 +15,12 @@
 #Politicals{
     display: none;
 }
-
+#HC{
+    display: none;
+}
+#cons{
+    display: none;
+}
 span{
     color: #0000ff;
     cursor: pointer;
